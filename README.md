@@ -4,9 +4,9 @@ Install:
 - NodeJS
 - Npm/ yarn
 
-`1`. Lấy danh sách file và tên test trong file config.json (folder db)
+`1`. Lấy danh sách file và tên test trong file config.json (folder seed_data)
 
-`2`. Đọc dữ liệu trong file db (folder db) (lấy theo tên file ở step 1) và lưu theo dạng như sau (em có thể viết mới hoặc dùng hàm anh viết sẵn trong utils)
+`2`. Đọc dữ liệu trong file db (folder seed_data) (lấy theo tên file ở step 1) và lưu theo dạng như sau (em có thể viết mới hoặc dùng hàm anh viết sẵn trong utils)
 ```
 {
   "name": "David Nguyen",
@@ -23,7 +23,7 @@ Install:
   ]
 }
 ```
-sau đó lưu các file vào trong folder `processedData` (lưu theo processData: vis dụ: dn.json, hl.json, al.json ....)
+sau đó lưu các file vào trong folder `processedData` (lưu theo processData: vis dụ: dn.json, hl.json, al.json ....) (tên trong file config.js)
 
 `3`. Em tạo 1 container Postgresql
 
