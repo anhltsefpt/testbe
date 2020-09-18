@@ -1,0 +1,20 @@
+{
+  "name": "test_back_end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "createDb": "node db/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.9.0"
+  },
+  "dependencies": {
+    "async": "^3.2.0",
+    "glob": "^7.1.6",
+    "sqlite3": "^5.0.0"
+  }
+}
