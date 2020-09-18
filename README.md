@@ -4,6 +4,8 @@ Install:
 - NodeJS
 - Npm/ yarn
 
+Em dùng thư viện nào cũng được. Add thoải mái
+
 `1`. Lấy danh sách file và tên test trong file config.json (folder seed_data)
 
 `2`. Đọc dữ liệu trong file db (folder seed_data) (lấy theo tên file ở step 1) và lưu theo dạng như sau (em có thể viết mới hoặc dùng hàm anh viết sẵn trong utils)
